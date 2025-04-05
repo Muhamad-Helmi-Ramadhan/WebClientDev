@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonts sudah di-link di HTML */
+  body {
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+  }
+  
+  .page {
+    width: 1040px;
+    margin: 0 auto;
+    padding-top: 64px;
+  }
+  
+  /* NAVBAR */
+  nav {
+    font-family: 'Mulish', sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: font-weight 0.2s ease;
+  }
+  
+  nav ul li a:hover {
+    font-weight: 800;
+  }
+  
+  /* MAIN CONTENT */
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 88px;
+  }
+  
+  .text {
+    max-width: 480px;
+  }
+  
+  .text h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+  }
+  
+  .text h1 span {
+    color: #2ec4b6;
+    font-weight: 700;
+  }
+  
+  .text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+  
+  /* BUTTON */
+  .text button {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .text button:hover {
+    background-color: #1ebe5d;
+  }
+  
+  /* FOOTER */
+  footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* DEKORASI */
+  #balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 120px;
+    opacity: 0.7;
+  }
+  

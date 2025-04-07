@@ -1,7 +1,7 @@
 ---
 name: Muhamad Helmi Ramadhan
 role: Freelancer | Web Designer
-image: helmi-profile.png
+image: profile-helmi.png
 skills:
   - Graphic Design
   - Web Development
@@ -22,7 +22,7 @@ I'm a **Freelancer** passionate about design and technology.
 Bogor, Indonesia
 
 ## 📸 Profile Picture
-![Helmi Profile](helmi-profile.png)
+![Helmi Profile](profile-helmi.png)
 
 > *"Turning ideas into impactful designs—one pixel at a time."*
 

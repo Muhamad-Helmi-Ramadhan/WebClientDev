@@ -3,73 +3,305 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Helmi | Web Designer</title>
+    <title>Helmi Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <nav>
-                <div class="logo">Muhamad<span> Helmi</span> Ramadhan</div>
-                <div class="nav-links">
-                    <a href="#">Home</a>
-                    <a href="#">Services</a>
-                    <a href="#">Skills</a>
-                    <a href="#">Education</a>
-                    <a href="#">Experience</a>
-                    <a href="#">Contact</a>
-                </div>
-            </nav>
-        </header>
 
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Hi, It's <span>Helmi</span></h1>
-                <h2>I'm a Freelancer</h2>
-                <h3>Graphic Designer & Aspiring Web Designer</h3>
-                <p>
-                    I craft eye-catching visuals for brands and digital media, balancing creativity with purpose. Currently expanding my skills into web design, I’m taking on small projects to build functional yet visually engaging websites.
-                </p>
-                <p><em>"Turning ideas into impactful designs—one pixel at a time."</em></p>
-                <a href="#" class="btn">Hire Me</a>
-                
-                <div class="social-links">
-                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+
+    <header>
+        <a href="" class="brand" data-aos="zoom-in" data-aos-duration="1000">Helmi</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a href="#main" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
+            <a href="#about"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">About</a>
+            <a href="#skills" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">Skills</a>
+            <a href="#services" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">Services</a>
+            <a href="#work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Work</a>
+            <a href="#" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">Contact</a>
+        </div>
+    </header>
+
+    <section class="main" id="main">
+        <div class="content">
+            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Hello, I'm <br><span>Muhamad Helmi Ramadhan</span></h2>
+            <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+                <h3>Web Developer</h3>
+                <h3>Web Designer</h3>
+                <h3>Programmer</h3>
+            </div>
+            <a href="#" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">See My Work</a>
+            <div class="media-icons">
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1200"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1300"><i class="fab fa-instagram"></i></a>
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1400"><i class="fab fa-twitter"></i></a>
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1500"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+<!--  About Section -->
+
+    <section class="about" id="about">
+        <div class="title reveal">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">About me</h2>
+        </div>
+        <div class="content">
+            <div class="column col-left reveal">
+                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+                    <img src="Image/img1.jpg" alt="">
                 </div>
             </div>
-            <img src="helmi-profile.png" alt="Helmi Profile" class="profile-pic">
+            <div class="column col-right reveal">
+                <h2 class="content-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Hey There! I am Helmi</h2>
+                <p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">Helmi is a Data Science student at Cakrawala University with a strong passion for both technology and creativity. In addition to his academic journey, he works as a freelancer, gaining practical experience and honing his professional skills. Helmi is also actively learning HTML, CSS, and JavaScript, and enjoys building small personal projects to deepen his understanding of web development.<br><br>Beyond tech, Helmi is deeply involved in music education and composition. He enjoys teaching music to students from kindergarten to high school, sharing his knowledge and love for music across age groups. He also arranges songs and works on music projects for competitions, combining his creativity and technical skills to produce engaging and original works.</p>
+                <a href="#" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">See more</a>
+            </div>
+        </div>
+    </section>
 
-        </section>
-    </div>
+<!-- Skill Section -->
 
+    <section class="skills" id="skills">
+        <div class="title">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">My Skills</h2>
+        </div>
+        <div class="content">
+            <div class="column col-left">
+                <h2 class="content-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">My Skills and Experiences</h2>
+                <div class="paragraph-text" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="300">"My journey in web development starts from the ground up. With every small project I build, I move one step closer to my goal of becoming a skilled developer."
+
+                </div>
+                <a href="#" class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="400">See more</a>
+            </div>
+            <div class="column col-right">
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="100">
+                        <span>HTML</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="line html" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="140"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
+                        <span>CSS</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line css" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="240"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300">
+                        <span>Javascript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line javascript" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="340"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">
+                        <span>Python</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="line python" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="440"></div>
+                </div>
+                <div class="bar">
+                    <div class="info" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
+                        <span>PHP</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="line php" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="540"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section class="services" id="services">
+        <div class="title">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">My Services</h2>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">In working on projects, I offer several services that you can choose from based on your needs. Each service is designed to provide flexible and tailored solutions to help you achieve your goals efficiently and creatively.</p>
+        </div>
+        <div class="content">
+            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <div class="info">
+                    <h3>Web Design</h3>
+                    <p>The process of creating the visual layout and user experience of a website. It focuses on aesthetics, usability, and how content is structured, using tools like HTML, CSS, and design software.</p>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class="fas fa-object-group"></i>
+                </div>
+                <div class="info">
+                    <h3>Motion Graphic Design</h3>
+                    <p>A type of visual design that combines animation, graphics, and text to create dynamic content—commonly used in videos, ads, and social media to make messages more engaging and visually appealing.</p>
+                </div>
+            </div>
+            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class="fas fa-file-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Web Development</h3>
+                    <p>The technical process of building and maintaining websites. It involves coding and programming using languages like HTML, CSS, JavaScript, and others to make websites functional, interactive, and responsive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Work Section -->
+    <section class="work" id="work">
+        <div class="title">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">My Work</h2>
+        </div>
+        <div class="content">
+            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+                <div class="card-img">
+                    <img src="Image/work1.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="card-img">
+                    <img src="Image/work2.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="card-img">
+                    <img src="Image/work3.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                <div class="card-img">
+                    <img src="Image/work4.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <div class="card-img">
+                    <img src="Image/work5.jpg" alt="">
+                </div>
+            </div>
+            <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <div class="card-img">
+                    <img src="Image/work6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title reveal">
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info">
+                <h3>Address</h3>
+                <span>Jakarta, Indonesia</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info">
+                <h3>Phone</h3>
+                <span>+6287821699780</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info">
+                <h3>Email Address</h3>
+                <span>Healme1405@gmail.com</span>
+              </div>
+            </div>
+            <div class="card reveal">
+              <div class="contact-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="info">
+                <h3>Instagram</h3>
+                <span>Instagram.com/mhr_helmi</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form reveal">
+              <h3>Send Message</h3>
+              <div class="input-box">
+                <input type="text" name="" value="" placeholder="Name">
+              </div>
+              <div class="input-box">
+                <input type="text" name="" value="" placeholder="Email">
+              </div>
+              <div class="input-box">
+                <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
+              </div>
+              <div class="input-box">
+                <input type="submit" class="send-btn" name="" value="Send">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <footer class="footer">
+        <span class="footer-title">Muhamad Helmi Ramadhan</span>
+        <p><a href="#">Helmi</a>.</p>
+      </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const heroContent = document.querySelector('.hero-content');
-            
+      AOS.init({offset:0});
+    </script>
+    <script>
 
-            heroContent.style.opacity = '0';
-            heroContent.style.transform = 'translateY(20px)';
-            heroContent.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
-            
-            setTimeout(() => {
-                heroContent.style.opacity = '1';
-                heroContent.style.transform = 'translateY(0)';
-            }, 100);
-            
-            const buttons = document.querySelectorAll('.btn, .social-links a');
-            buttons.forEach(button => {
-                button.addEventListener('mouseenter', function() {
-                    this.style.transform = 'translateY(-3px)';
-                });
-                button.addEventListener('mouseleave', function() {
-                    this.style.transform = 'translateY(0)';
-                });
-            });
-        });
+        window.addEventListener("scroll", function(){
+    scrollBtn.classList.toggle("active", window.scrollY > 500);
+});
+
+//javascript for scroll back to top on click scroll-to-top button
+
+// document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// });
+
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        const navigationItems = document.querySelector(".navigation a");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        })
+
+        // Navigation Effects
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        navigationItems.forEach((navigationItem) => {
+            navigationItem.addEventListener("click", () => {
+                menuBtn.classList.remove("active");
+                navigation.classList.remove("active")
+            })
+        })
+
+
+
     </script>
 </body>
 </html>
